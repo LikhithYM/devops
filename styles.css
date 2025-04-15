@@ -1,0 +1,216 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background for the body */
+    color: #fff; /* White text on dark background */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333; /* Dark header background */
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Home Section - Concert Background */
+#home {
+    background: url('https://images.unsplash.com/photo-1606908267401-8d5edc4e1b65?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg1MnwwfDF8c2VhY2h8MXx8Y29uY2VydHxlbnwwfHx8fDE2NTg5MTY4Nzg&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5em 2em;
+}
+
+#home h1 {
+    font-size: 3.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Dark shadow for better visibility */
+}
+
+#home p {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+#countdown {
+    font-size: 2.5em;
+    margin-top: 1em;
+    font-weight: bold;
+    color: #ff5722; /* Vibrant color for the countdown */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Dark shadow for better visibility */
+    background-color: #212121; /* Dark background for the countdown */
+    padding: 15px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+/* About Section */
+#about {
+    background-color: #212121; /* Dark background */
+    padding: 3em;
+    text-align: center;
+}
+
+#about h2 {
+    color: #ff5722; /* Bright accent color */
+}
+
+#about p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Events Section */
+#events {
+    padding: 3em;
+    background-color: #333; /* Dark background */
+    text-align: center;
+}
+
+#events h2 {
+    color: #ff5722; /* Bright accent color */
+    font-size: 2.5em;
+}
+
+#events ul {
+    list-style: none;
+    font-size: 1.5em;
+}
+
+#events ul li {
+    margin: 10px 0;
+}
+
+/* Schedule Section */
+#schedule {
+    padding: 3em;
+    background-color: #263238; /* Dark background */
+    color: white;
+    text-align: center;
+}
+
+#schedule h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+#schedule table {
+    width: 100%;
+    margin-top: 1em;
+    border-collapse: collapse;
+}
+
+#schedule th, #schedule td {
+    padding: 15px;
+    border: 1px solid #fff;
+}
+
+#schedule th {
+    background-color: #00796b; /* Slightly lighter background for table headers */
+}
+
+#schedule td {
+    background-color: #004d40; /* Darker background for table cells */
+}
+
+/* Registration Section */
+#register {
+    padding: 3em;
+    background-color: #3f51b5;
+    color: white;
+    text-align: center;
+}
+
+#register h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 12px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #e64a19;
+}
+
+/* Contact Section */
+#contact {
+    padding: 3em;
+    background-color: #263238; /* Dark background */
+    color: white;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+#contact p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+/* Footer Section */
+footer {
+    background-color: #212121; /* Dark footer background */
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
